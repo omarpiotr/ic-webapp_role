@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  ic-webapp:
+     image: {{ ic_webapp_image }}
+     restart: always
+     environment:
+       ODOO_URL: {{ odoo_url }}
+       PGADMIN_URL: {{ pgadmin_url }}
+     ports:
+       - "{{ ic_webapp_port }}:8080"

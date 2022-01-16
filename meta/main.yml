@@ -1,0 +1,7 @@
+---
+galaxy_info:
+  author: OmarPiotr
+  description: Ansible ic-webapp role
+  company: ICGROUP
+  role_name: ic-webapp_role
+  

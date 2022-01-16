@@ -1,0 +1,14 @@
+---
+# tasks file for ic-webapp_role
+
+- name: "Ajout du template ic-webapp_role  docker-compose.yml"
+  template:
+    src: "docker-compose.yml.j2"
+    dest: /home/{{ ansible_user }}/docker-compose-ic.yml
+
+
+- name: "Lancer le fichier docker-compose.yml"
+  docker_compose:
+    project_src: /home/{{ ansible_user }}
+    files:
+    - docker-compose-ic.yml

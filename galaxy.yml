@@ -1,0 +1,17 @@
+---
+namespace: community
+name: ic-webapp_role
+version: 1.0.0
+readme: README.md
+authors:
+  - "Omar Piotr BENNANI"
+description: Install ic-webapp from image
+license_file: BSD
+tags:
+  - v1
+repository: https://github.com/omarpiotr/ic-webapp_role.git
+documentation: https://github.com/omarpiotr/ic-webapp_role.git
+homepage: https://github.com/omarpiotr/ic-webapp_role.git
+issues: https://github.com/omarpiotr/ic-webapp_role.git
+build_ignore:
+  - .gitignore
